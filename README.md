@@ -33,7 +33,7 @@ While Seneca does support TCP and HTTP point-to-point microservices, it is of my
 
 1. Start this service using `npm start`
 1. Start the [seneca-service-api](https://github.com/ericnograles/seneca-service-api)
-1. Browse to `http://localhost:3001/api/v1/twitter/tweets`
+1. Browse to `http://localhost:3001/api/v1/facebook/feed?protocol=tcp`
 1. You should receive the following payload
 
 ```javascript
